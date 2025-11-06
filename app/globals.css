@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-night text-white font-body antialiased;
+}
+
+a {
+  @apply text-neon-cyan transition-colors hover:text-neon-lime;
+}
+
+button {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-neon-cyan/80 focus-visible:ring-offset-2 focus-visible:ring-offset-night;
+}
